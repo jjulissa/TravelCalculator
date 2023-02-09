@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Calculator</title> 
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body> 
+
+    <h1>Travel Calculator</h1>
+    
+    <form action="#" class="form">
+        <label for="ciudad">Ciudad: </label>
+        <select name="ciudad" id="ciudad">
+            <option id="barcelona" value="barcelona">Barcelona</option> 
+            <option id="madrid" value="madrid">Madrid</option> 
+            <option id="sevilla" value="sevilla">Sevilla</option> 
+            <option id="valencia" value="valencia">Valencia</option> 
+            <option id="malaga" value="malaga">Malaga</option> 
+            <option id="murcia" value="murcia">Murcia</option> 
+            <option id="bilbao" value="bilbao">Bilbao</option>
+        </select>
+
+        <label id="labelNumeroDeNoche" for="numeroDeNoche">Numero de Noches: </label>
+        <input type="number" id="inputNumeroDeNoche" name="numeroDeNoche"> 
+
+        <label id="labelNumeroDiaAlquilerCoche" for="numeroDiaAlquilerCoche">Numero de Dias de Alquiler del coche: </label>
+        <input type="number" id="inputNumeroDiaAlquilerCoche" name="numeroDiaAlquilerCoche"> 
+
+        <button class="btnCalcularCoste" type="submit">Calcular coste</button> 
+
+        <h3> Coste: <span id="price">0 $</span></h3>
+    </form>
+
+
+
+    <footer>
+    </footer>
+
+
+
+
+
+    <script src="./main.js"></script>
+</body>
+</html>

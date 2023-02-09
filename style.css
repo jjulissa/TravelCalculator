@@ -1,0 +1,32 @@
+body {
+    background-color: #fa8072; 
+    color:peachpuff; 
+    font-size: x-large; 
+    font-weight: 600; 
+    font-style: italic; 
+    font-family: fantasy; 
+    text-align: center;
+} 
+
+
+form {
+    background-color: wheat; 
+    color: rosybrown; 
+    display: flex;
+    flex-direction: column; 
+    gap: 20px; 
+    justify-content: center; 
+    align-items: center ; 
+    /* padding: 20px;  */
+    border-radius: 50px; 
+    font-size: xx-large; 
+    border: teal double 20px;
+
+} 
+
+form button {
+    border-radius: 20px; 
+    font-size: x-large; 
+    background-color: deeppink; 
+    color: whitesmoke;
+}
